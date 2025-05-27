@@ -9,38 +9,35 @@
 </head>
 
 <body class="bg-white text-gray-900">
-  <header class="flex items-center justify-between px-10 py-6">
+  <header class="flex items-center justify-between px-10 py-2">
 
-        <div class="text-sm font-semibold">Madelyn Torff</div>
+        <div class="">Madelyn Torff</div>
 
-        <nav class="space-x-6 text-black font-semibold">
+        <nav class="hidden md:">
 
             <a href="#" class="hover:underline">About</a>
             <a href="#" class="hover:underline">Projects</a>
             <a href="#" class="hover:underline">Contacts</a>
-        
+          
         </nav>
+        <div> <i class="bi bi-list text-4xl"></i></div>
   </header>
 
   <!-- Partie principale du site -->
   <main class="flex flex-col-reverse md:flex-row items-center justify-between px-10 md:px-20 lg:px-32 py-16 gap-12">
     
     <div class="md:w-1/2 space-y-6">
-      <!-- Petit texte en haut -->
+     
       <p class="text-yellow-500 font-medium text-sm uppercase">UI/UX Designer</p>
-      
-      <!-- Titre principal -->
-      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+      <h1 class="text-4xl md:text-5xl font-bold ">
         Hello, my name <br class="hidden md:block" /> is Madelyn Torff
       </h1>
       
-      <!-- Paragraphe de description -->
       <p class="text-gray-700 text-base max-w-md">
         Short text with details about you, what you do or your professional career.
         You can add more information on the about page.
       </p>
       
-      <!-- Les deux boutons -->
       <div class="flex gap-4">
         <button class="bg-yellow-400 text-sm font-semibold px-5 py-2 rounded-md hover:bg-yellow-500 transition">
           Projects
@@ -51,13 +48,11 @@
       </div>
     </div>
 
-    <!-- Partie droite : l'image -->
     <div class="relative md:w-1/2 flex justify-center">
-      <!-- Forme jaune en arrière-plan -->
-      <div class="absolute bg-yellow-300 w-[350px] h-[420px] rounded-tl-[100px] rounded-tr-[200px] rounded-bl-[300px] rounded-br-[150px] -z-10"></div>
+
+      <div class="absolute w-[350px] h-[420px] -z-10"></div>
       
-      <!-- Image par-dessus la forme -->
-      <img src="images/bg-2.png" alt="hero image" class="w-64 md:w-80 object-contain z-10" />
+      <img src="images/image.png" alt="hero image" class="w-64 md:w-80  z-10" />
     </div>
   </main>
 
